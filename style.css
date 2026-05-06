@@ -1,0 +1,126 @@
+body{
+   font-family: 'Helvetica Neue',Arial, sans-serif;
+   font-size: 16px;
+   line-height: 1.7;
+   color: black
+}
+table {
+    border-collapse: collapse
+    ;
+    max-width: 700px
+}
+th , td , caption {
+    border: 1px solid black;
+}
+h1, h2 , h3 {
+    text-align: center;
+}
+.tuttalapagina {
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+}
+ul, li {
+list-style-type: none;
+text-align: center;
+}
+header{
+    background-color: beige;
+    
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+#site-header h1{
+    font-size: 3rem;
+    font-weight: bold;
+    font-style: italic;
+}
+.tagline{
+    color: blueviolet;
+    font-style: italic;
+}
+nav a{
+    color: rgb(167, 108, 32);
+    font-weight: bold;
+    line-height: 3;
+    text-decoration: none;
+
+}
+ul{
+    list-style-type: none;
+}
+a , a:visited{
+   text-decoration: none;
+   color: rgb(167, 108, 32); 
+   
+}
+nav a:hover{
+    color: rgb(225, 219, 127);
+   
+    background-color: rgba(22, 18, 11, 0.5)
+
+}
+
+
+h2 , h3{
+    font-size: xx-large;
+    color: rgb(142, 87, 21);
+    text-align: center;
+}
+#chi-sono{
+    background-color: #ffffff;
+}
+#chi-sono p:first-of-type{
+    font-size: larger;
+    font-style: italic;
+    color: rgb(118, 25, 25);
+}
+.skill-list li:nth-child(odd){
+    background-color: #DDEFFF
+
+}
+.skill-list li:nth-child(even){
+background-color: #ddefff6e
+}
+.skill-list li{
+    font-weight: bolder;
+    font-size: larger;
+}
+.project:nth-of-type(odd){
+    background-color: #DDEFFF;
+}
+.project:nth-of-type(even){
+background-color: #c7dded;
+}
+label{
+    font-weight: bold;
+    color: rgb(134, 91, 34);
+}
+input, textarea{
+font-family: "Helvetica Neue" , Arial, sans-serif;
+font-size: larger;
+width: 60%;
+background-color: #fbfbfc;
+}
+input, textarea:focus{
+background-color: rgb(212, 212, 241);
+color: rgb(18, 19, 19);
+}
+button{
+    color: rgb(56, 71, 71);
+    background-color: burlywood;
+    font-weight: bolder;
+    width: 30%;
+
+}
+button:hover{
+     color: rgb(35, 47, 47);
+    background-color: rgb(225, 163, 80);
+    font-weight: bolder;
+    width: 30%;
+}
+#site-footer{
+    background-color: khaki;
+    font-size: 0.9rem;
+}
